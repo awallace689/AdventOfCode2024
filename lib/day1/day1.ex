@@ -5,7 +5,6 @@ defmodule Day1 do
   def parse_input_lists() do
     lines = AOCFile.read_file_by_line!(1, 1)
 
-    # use hashmap instead for O(n)
     Enum.reduce(lines, [[], []], fn line, [list_a, list_b] ->
       [num_a, num_b] = line |> String.trim() |> String.split("   ")
       list_a = [String.to_integer(num_a) | list_a]
