@@ -1,6 +1,6 @@
 # AdventOfCode2024
 
-- Advent of Code 2024, implemented in elixir.
+- Advent of Code 2024, implemented in Elixir.
 
 # Run
 
