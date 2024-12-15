@@ -1,5 +1,6 @@
 alias AdventOfCode2024.Day1
 alias AdventOfCode2024.Day2
+alias AdventOfCode2024.Day3
 
 defmodule AdventOfCode2024Test do
   defmodule Day1Test do
@@ -25,6 +26,15 @@ defmodule AdventOfCode2024Test do
 
     test "P2" do
       assert Day2.Part2.solution() === 569
+    end
+  end
+
+  defmodule Day3Test do
+    use ExUnit.Case
+    doctest AdventOfCode2024.Day3
+
+    test "P1" do
+      assert Day3.Part1.solution() === 166_357_705
     end
   end
 end
